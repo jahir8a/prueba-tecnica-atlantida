@@ -18,7 +18,7 @@ export class WeatherService {
     } catch(error: any){
       //if(error.name === 'AbortError'){//timeout handle
       const local_info = await fetch(`${this.local_resource}`);
-      return (await local_info.json() as Weather[])[0];
+      return (await local_info.json() as Weather[]).filter(value => value.region?.toLocaleLowerCase().includes(city.toLocaleLowerCase()))[0];
       //}
     }
     
