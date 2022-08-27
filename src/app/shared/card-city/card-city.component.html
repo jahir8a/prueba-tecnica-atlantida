@@ -1,0 +1,12 @@
+<div *ngFor="let item of data.next_days" class="card card-small"  tabindex="0">
+    <div >
+        {{item.day}}
+    </div>
+    <br/>
+   <div >
+    <img [src]='item.iconURL'/>
+   </div>
+    <br/>
+    <span>Min: {{item.min_temp.c}} Max: {{item.max_temp.c}} c</span>
+    <br/>
+  </div>
