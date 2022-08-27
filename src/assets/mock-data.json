@@ -129,18 +129,18 @@
 	"data_source": "https://www.google.com/search?lr=lang_en&q=weather+in+londres"
 },
 {
-	"region": "London, UK",
+	"region": "Tegucigalpa, HN",
 	"currentConditions": {
 		"dayhour": "Friday 5:00 AM",
 		"temp": {
-			"c": 11,
+			"c": 12,
 			"f": 52
 		},
 		"precip": "2%",
 		"humidity": "79%",
 		"wind": {
 			"km": 13,
-			"mile": 8
+			"mile": 34
 		},
 		"iconURL": "https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png",
 		"comment": "Clear with periodic clouds"
@@ -150,11 +150,11 @@
 			"day": "Friday",
 			"comment": "Partly cloudy",
 			"max_temp": {
-				"c": 21,
+				"c": 28,
 				"f": 70
 			},
 			"min_temp": {
-				"c": 8,
+				"c": 14,
 				"f": 47
 			},
 			"iconURL": "https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
@@ -163,7 +163,7 @@
 			"day": "Saturday",
 			"comment": "Partly cloudy",
 			"max_temp": {
-				"c": 22,
+				"c": 20,
 				"f": 72
 			},
 			"min_temp": {
@@ -180,7 +180,7 @@
 				"f": 73
 			},
 			"min_temp": {
-				"c": 14,
+				"c": 18,
 				"f": 57
 			},
 			"iconURL": "https://ssl.gstatic.com/onebox/weather/48/rain_light.png"
